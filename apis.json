@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Twine",
+	"description": "This is a repository of twine APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/twine.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://twine.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Twine",
+			"x-api-slug": "twine",
+			"description": "Twine Health is a cloud-based collaborative care platform for chronic disease management. It consists of a patient engagement portal, a peer support network, a care management solution, and an outcome analytics tool. The platform enables users to co-create personalized care plans that serve as common ground for collaboration with their care team: their own providers such as physicians and nurse practitioners; their family and friends; and coaches such as nurses, pharmacists, health coaches, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twinehealth.png",
+			"humanURL": "http://twinehealth.com",
+			"baseURL": "https://api.twinehealth.com//pub",
+			"tags": "Twine",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/twine/master/_listings/twine/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Twine",
+	"include": [
+		{
+			"name": "Twine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/twine/master/_listings/twine/apis.yaml"
+		}
+	]
+}
